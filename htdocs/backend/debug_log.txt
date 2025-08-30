@@ -1,0 +1,1880 @@
+[2025-07-29 18:17:09] Request Method: POST
+[2025-07-29 18:17:09] Raw POST Data: {"test":"data"}
+[2025-07-29 18:17:09] Decoded JSON Data: Array
+(
+    [test] => data
+)
+
+[2025-07-29 18:17:09] No measurements found in JSON data
+[2025-07-29 18:17:09] JSON Data Structure: Array
+(
+    [0] => test
+)
+
+[2025-07-29 18:17:09] This appears to be a customer CREATE operation
+2025-07-29 18:29:07 - Raw Request:
+{"id":"CUST-1753806547125","name":"yllow","phone":"9090909090","measurements":{"fullShoulder":"4","shoulderWidth":"4","backLength":"4","backNeckLength":"4","armholeLoose":"4","handLength":"44","handLooseAboveElbow":"4","handLooseBelowElbow":"4","frontLength":"4","frontNeckLength":"","apexLength":"4","apexToApex":"4","chestLoose":"44","upperChestLoose":"4","waistLoose":"4"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"hooks","padding":"no","piping":"contrast"},"images":{"saree":{"url":"","notes":"4"},"blouseFront":{"url":"","notes":"444"},"blouseBack":{"url":"","notes":""},"blouseHand":{"url":"","notes":"444"}},"orderStatus":"Pending"}
+
+2025-07-29 18:29:07 - Parsed Request:
+Array
+(
+    [id] => CUST-1753806547125
+    [name] => yllow
+    [phone] => 9090909090
+    [measurements] => Array
+        (
+            [fullShoulder] => 4
+            [shoulderWidth] => 4
+            [backLength] => 4
+            [backNeckLength] => 4
+            [armholeLoose] => 4
+            [handLength] => 44
+            [handLooseAboveElbow] => 4
+            [handLooseBelowElbow] => 4
+            [frontLength] => 4
+            [frontNeckLength] => 
+            [apexLength] => 4
+            [apexToApex] => 4
+            [chestLoose] => 44
+            [upperChestLoose] => 4
+            [waistLoose] => 4
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => hooks
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => 
+                    [notes] => 4
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => 
+                    [notes] => 444
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => 
+                    [notes] => 444
+                )
+
+        )
+
+    [orderStatus] => Pending
+)
+
+
+2025-07-30 12:27:23 - Raw Request:
+{"id":"CUST-1753871243605","name":"hello","phone":"0987654321","measurements":{"fullShoulder":"4444","shoulderWidth":"4","backLength":"4","backNeckLength":"4","armholeLoose":"4","handLength":"4","handLooseAboveElbow":"4","handLooseBelowElbow":"4","frontLength":"4","frontNeckLength":"4","apexLength":"4","apexToApex":"4","chestLoose":"4","upperChestLoose":"","waistLoose":"44"},"blouseDetails":{"opening":"front","doris":"yes","cut":"3dart","fastener":"hooks","padding":"no","piping":"contrast"},"images":{"saree":{"url":"","notes":"444"},"blouseFront":{"url":"","notes":"44"},"blouseBack":{"url":"","notes":"44"},"blouseHand":{"url":"","notes":"44"}},"orderStatus":"Pending"}
+
+2025-07-30 12:27:23 - Parsed Request:
+Array
+(
+    [id] => CUST-1753871243605
+    [name] => hello
+    [phone] => 0987654321
+    [measurements] => Array
+        (
+            [fullShoulder] => 4444
+            [shoulderWidth] => 4
+            [backLength] => 4
+            [backNeckLength] => 4
+            [armholeLoose] => 4
+            [handLength] => 4
+            [handLooseAboveElbow] => 4
+            [handLooseBelowElbow] => 4
+            [frontLength] => 4
+            [frontNeckLength] => 4
+            [apexLength] => 4
+            [apexToApex] => 4
+            [chestLoose] => 4
+            [upperChestLoose] => 
+            [waistLoose] => 44
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => front
+            [doris] => yes
+            [cut] => 3dart
+            [fastener] => hooks
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => 
+                    [notes] => 444
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => 
+                    [notes] => 44
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => 
+                    [notes] => 44
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => 
+                    [notes] => 44
+                )
+
+        )
+
+    [orderStatus] => Pending
+)
+
+
+2025-07-30 12:48:12 - Raw Request:
+{"id":"CUST-1753872492451","name":"prath","phone":"9787282828","measurements":{"fullShoulder":"4","shoulderWidth":"4","backLength":"4","backNeckLength":"4","armholeLoose":"","handLength":"44","handLooseAboveElbow":"44","handLooseBelowElbow":"4","frontLength":"44","frontNeckLength":"44","apexLength":"","apexToApex":"","chestLoose":"","upperChestLoose":"","waistLoose":""},"blouseDetails":{"opening":"front","doris":"no","cut":"","fastener":"","padding":"","piping":""},"images":{"saree":{"url":"","notes":"WD"},"blouseFront":{"url":"","notes":""},"blouseBack":{"url":"","notes":""},"blouseHand":{"url":"","notes":""}},"orderStatus":"Pending"}
+
+2025-07-30 12:48:12 - Parsed Request:
+Array
+(
+    [id] => CUST-1753872492451
+    [name] => prath
+    [phone] => 9787282828
+    [measurements] => Array
+        (
+            [fullShoulder] => 4
+            [shoulderWidth] => 4
+            [backLength] => 4
+            [backNeckLength] => 4
+            [armholeLoose] => 
+            [handLength] => 44
+            [handLooseAboveElbow] => 44
+            [handLooseBelowElbow] => 4
+            [frontLength] => 44
+            [frontNeckLength] => 44
+            [apexLength] => 
+            [apexToApex] => 
+            [chestLoose] => 
+            [upperChestLoose] => 
+            [waistLoose] => 
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => front
+            [doris] => no
+            [cut] => 
+            [fastener] => 
+            [padding] => 
+            [piping] => 
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => 
+                    [notes] => WD
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+)
+
+
+2025-07-30 12:55:48 - Raw Request:
+{"name":"saketh","phone":"9177408586","measurements":{"fullShoulder":"32","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLoose":"17","handLength":"22","handLooseAboveElbow":"12","handLooseBelowElbow":"10","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"32"},"blouseDetails":{"opening":"front","doris":"yes","cut":"princess","fastener":"hooks","padding":"yes","piping":"self"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753785850.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-07-30 12:55:48 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [measurements] => Array
+        (
+            [fullShoulder] => 32
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLoose] => 17
+            [handLength] => 22
+            [handLooseAboveElbow] => 12
+            [handLooseBelowElbow] => 10
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 32
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => front
+            [doris] => yes
+            [cut] => princess
+            [fastener] => hooks
+            [padding] => yes
+            [piping] => self
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-07-30 15:25:57 - Raw Request:
+{"name":"saketh","phone":"9177408586","measurements":{"fullShoulder":"32","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLoose":"17","handLength":"22","handLooseAboveElbow":"12","handLooseBelowElbow":"10","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"32"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753785850.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-07-30 15:25:57 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [measurements] => Array
+        (
+            [fullShoulder] => 32
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLoose] => 17
+            [handLength] => 22
+            [handLooseAboveElbow] => 12
+            [handLooseBelowElbow] => 10
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 32
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-07-30 15:29:57 - Raw Request:
+{"name":"saketh","phone":"9177408586","measurements":{"fullShoulder":"56","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLoose":"17","handLength":"22","handLooseAboveElbow":"12","handLooseBelowElbow":"10","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"32"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753785850.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-07-30 15:29:57 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [measurements] => Array
+        (
+            [fullShoulder] => 56
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLoose] => 17
+            [handLength] => 22
+            [handLooseAboveElbow] => 12
+            [handLooseBelowElbow] => 10
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 32
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-07-30 15:37:19 - Raw Request:
+{"name":"saketh","phone":"9177408586","measurements":{"fullShoulder":"56","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLoose":"17","handLength":"22","handLooseAboveElbow":"12","handLooseBelowElbow":"10","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"32"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-07-30 15:37:19 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [measurements] => Array
+        (
+            [fullShoulder] => 56
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLoose] => 17
+            [handLength] => 22
+            [handLooseAboveElbow] => 12
+            [handLooseBelowElbow] => 10
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 32
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-07-30 16:24:09 - Raw Request:
+{"name":"prath","phone":"9787282828 ","measurements":{"fullShoulder":"4","shoulderWidth":"4","backLength":"4","backNeckLength":"4","armholeLoose":"","handLength":"44","handLooseAboveElbow":"44","handLooseBelowElbow":"4","frontLength":"44","frontNeckLength":"44","apexLength":"","apexToApex":"","chestLoose":"","upperChestLoose":"","waistLoose":""},"blouseDetails":{"opening":"front","doris":"no","cut":"","fastener":"","padding":"no","piping":""},"images":{"saree":{"url":"","notes":""},"blouseFront":{"url":"","notes":""},"blouseBack":{"url":"","notes":""},"blouseHand":{"url":"","notes":""}},"orderStatus":"Pending","id":"CUST-1753872492451"}
+
+2025-07-30 16:24:09 - Parsed Request:
+Array
+(
+    [name] => prath
+    [phone] => 9787282828 
+    [measurements] => Array
+        (
+            [fullShoulder] => 4
+            [shoulderWidth] => 4
+            [backLength] => 4
+            [backNeckLength] => 4
+            [armholeLoose] => 
+            [handLength] => 44
+            [handLooseAboveElbow] => 44
+            [handLooseBelowElbow] => 4
+            [frontLength] => 44
+            [frontNeckLength] => 44
+            [apexLength] => 
+            [apexToApex] => 
+            [chestLoose] => 
+            [upperChestLoose] => 
+            [waistLoose] => 
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => front
+            [doris] => no
+            [cut] => 
+            [fastener] => 
+            [padding] => no
+            [piping] => 
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753872492451
+)
+
+
+2025-08-11 10:28:29 - Raw Request:
+{"name":"saketh-daughter","phone":"9177408586","measurements":{"fullShoulder":"26","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLoose":"17","handLength":"22","handLooseAboveElbow":"12","handLooseBelowElbow":"10","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"32"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-08-11 10:28:29 - Parsed Request:
+Array
+(
+    [name] => saketh-daughter
+    [phone] => 9177408586
+    [measurements] => Array
+        (
+            [fullShoulder] => 26
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLoose] => 17
+            [handLength] => 22
+            [handLooseAboveElbow] => 12
+            [handLooseBelowElbow] => 10
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 32
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-08-13 10:33:07 - Raw Request:
+{"name":"saketh","phone":"9177408586","measurements":{"fullShoulder":"44","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLoose":"17","armholeLooseLeft":"5","armholeLooseRight":"6","handLength":"22","handLooseAboveElbow":"12","handLooseAboveElbowLeft":"1","handLooseAboveElbowRight":"2","handLooseBelowElbow":"10","handLooseBelowElbowLeft":"1","handLooseBelowElbowRight":"2","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"32","lehengaLength":"12","waistLength":"2"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-08-13 10:33:07 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [measurements] => Array
+        (
+            [fullShoulder] => 44
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLoose] => 17
+            [armholeLooseLeft] => 5
+            [armholeLooseRight] => 6
+            [handLength] => 22
+            [handLooseAboveElbow] => 12
+            [handLooseAboveElbowLeft] => 1
+            [handLooseAboveElbowRight] => 2
+            [handLooseBelowElbow] => 10
+            [handLooseBelowElbowLeft] => 1
+            [handLooseBelowElbowRight] => 2
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 32
+            [lehengaLength] => 12
+            [waistLength] => 2
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-08-13 10:37:40 - Raw Request:
+{"id":"CUST-1755074260672","name":"hifi","phone":"9182728222","measurements":{"fullShoulder":"1","shoulderWidth":"1","backLength":"1","backNeckLength":"1","armholeLoose":"11","armholeLooseLeft":"1","armholeLooseRight":"1","handLength":"1","handLooseAboveElbow":"1","handLooseAboveElbowLeft":"1","handLooseAboveElbowRight":"1","handLooseBelowElbow":"1","handLooseBelowElbowLeft":"11","handLooseBelowElbowRight":"1","frontLength":"1","frontNeckLength":"1","apexLength":"1","apexToApex":"","chestLoose":"1","upperChestLoose":"11","waistLoose":"1","lehengaLength":"1","waistLength":"1"},"blouseDetails":{"opening":"","doris":"","cut":"","fastener":"","padding":"","piping":""},"images":{"saree":{"url":"","notes":"11"},"blouseFront":{"url":"","notes":"11"},"blouseBack":{"url":"","notes":"111"},"blouseHand":{"url":"","notes":"11"}},"orderStatus":"Pending"}
+
+2025-08-13 10:37:40 - Parsed Request:
+Array
+(
+    [id] => CUST-1755074260672
+    [name] => hifi
+    [phone] => 9182728222
+    [measurements] => Array
+        (
+            [fullShoulder] => 1
+            [shoulderWidth] => 1
+            [backLength] => 1
+            [backNeckLength] => 1
+            [armholeLoose] => 11
+            [armholeLooseLeft] => 1
+            [armholeLooseRight] => 1
+            [handLength] => 1
+            [handLooseAboveElbow] => 1
+            [handLooseAboveElbowLeft] => 1
+            [handLooseAboveElbowRight] => 1
+            [handLooseBelowElbow] => 1
+            [handLooseBelowElbowLeft] => 11
+            [handLooseBelowElbowRight] => 1
+            [frontLength] => 1
+            [frontNeckLength] => 1
+            [apexLength] => 1
+            [apexToApex] => 
+            [chestLoose] => 1
+            [upperChestLoose] => 11
+            [waistLoose] => 1
+            [lehengaLength] => 1
+            [waistLength] => 1
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => 
+            [doris] => 
+            [cut] => 
+            [fastener] => 
+            [padding] => 
+            [piping] => 
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => 
+                    [notes] => 11
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => 
+                    [notes] => 11
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => 
+                    [notes] => 111
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => 
+                    [notes] => 11
+                )
+
+        )
+
+    [orderStatus] => Pending
+)
+
+
+2025-08-13 10:38:21 - Raw Request:
+{"name":"saketh","phone":"9177408586","measurements":{"fullShoulder":"44","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLoose":"17","armholeLooseLeft":"11","armholeLooseRight":"11","handLength":"22","handLooseAboveElbow":"12","handLooseAboveElbowLeft":"111","handLooseAboveElbowRight":"11","handLooseBelowElbow":"10","handLooseBelowElbowLeft":"11","handLooseBelowElbowRight":"11","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"32","lehengaLength":"11","waistLength":"1"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-08-13 10:38:21 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [measurements] => Array
+        (
+            [fullShoulder] => 44
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLoose] => 17
+            [armholeLooseLeft] => 11
+            [armholeLooseRight] => 11
+            [handLength] => 22
+            [handLooseAboveElbow] => 12
+            [handLooseAboveElbowLeft] => 111
+            [handLooseAboveElbowRight] => 11
+            [handLooseBelowElbow] => 10
+            [handLooseBelowElbowLeft] => 11
+            [handLooseBelowElbowRight] => 11
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 32
+            [lehengaLength] => 11
+            [waistLength] => 1
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-08-13 10:39:12 - Raw Request:
+{"name":"hifi","phone":"9182728222","measurements":{"fullShoulder":"1","shoulderWidth":"1","backLength":"1","backNeckLength":"1","armholeLoose":"11","armholeLooseLeft":"2","armholeLooseRight":"2","handLength":"1","handLooseAboveElbow":"1","handLooseAboveElbowLeft":"2","handLooseAboveElbowRight":"2","handLooseBelowElbow":"1","handLooseBelowElbowLeft":"2","handLooseBelowElbowRight":"2","frontLength":"1","frontNeckLength":"1","apexLength":"1","apexToApex":"","chestLoose":"1","upperChestLoose":"11","waistLoose":"1","lehengaLength":"2","waistLength":"2"},"blouseDetails":{"opening":"","doris":"","cut":"","fastener":"","padding":"","piping":""},"images":{"saree":{"url":"","notes":""},"blouseFront":{"url":"","notes":""},"blouseBack":{"url":"","notes":""},"blouseHand":{"url":"","notes":""}},"orderStatus":"Pending","id":"CUST-1755074260672"}
+
+2025-08-13 10:39:12 - Parsed Request:
+Array
+(
+    [name] => hifi
+    [phone] => 9182728222
+    [measurements] => Array
+        (
+            [fullShoulder] => 1
+            [shoulderWidth] => 1
+            [backLength] => 1
+            [backNeckLength] => 1
+            [armholeLoose] => 11
+            [armholeLooseLeft] => 2
+            [armholeLooseRight] => 2
+            [handLength] => 1
+            [handLooseAboveElbow] => 1
+            [handLooseAboveElbowLeft] => 2
+            [handLooseAboveElbowRight] => 2
+            [handLooseBelowElbow] => 1
+            [handLooseBelowElbowLeft] => 2
+            [handLooseBelowElbowRight] => 2
+            [frontLength] => 1
+            [frontNeckLength] => 1
+            [apexLength] => 1
+            [apexToApex] => 
+            [chestLoose] => 1
+            [upperChestLoose] => 11
+            [waistLoose] => 1
+            [lehengaLength] => 2
+            [waistLength] => 2
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => 
+            [doris] => 
+            [cut] => 
+            [fastener] => 
+            [padding] => 
+            [piping] => 
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1755074260672
+)
+
+
+2025-08-13 10:41:22 - Raw Request:
+{"name":"saketh","phone":"9177408586","measurements":{"fullShoulder":"11","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLoose":"17","armholeLooseLeft":"","armholeLooseRight":"","handLength":"22","handLooseAboveElbow":"12","handLooseAboveElbowLeft":"","handLooseAboveElbowRight":"","handLooseBelowElbow":"10","handLooseBelowElbowLeft":"","handLooseBelowElbowRight":"","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"32","lehengaLength":"","waistLength":""},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-08-13 10:41:22 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [measurements] => Array
+        (
+            [fullShoulder] => 11
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLoose] => 17
+            [armholeLooseLeft] => 
+            [armholeLooseRight] => 
+            [handLength] => 22
+            [handLooseAboveElbow] => 12
+            [handLooseAboveElbowLeft] => 
+            [handLooseAboveElbowRight] => 
+            [handLooseBelowElbow] => 10
+            [handLooseBelowElbowLeft] => 
+            [handLooseBelowElbowRight] => 
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 32
+            [lehengaLength] => 
+            [waistLength] => 
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-08-13 10:55:50 - Raw Request:
+{"name":"saketh","phone":"9177408586","measurements":{"fullShoulder":"11","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLoose":"17","armholeLooseLeft":"","armholeLooseRight":"","handLength":"22","handLooseAboveElbow":"12","handLooseAboveElbowLeft":"1","handLooseAboveElbowRight":"1","handLooseBelowElbow":"10","handLooseBelowElbowLeft":"11","handLooseBelowElbowRight":"1","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"32","lehengaLength":"1","waistLength":"1"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-08-13 10:55:50 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [measurements] => Array
+        (
+            [fullShoulder] => 11
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLoose] => 17
+            [armholeLooseLeft] => 
+            [armholeLooseRight] => 
+            [handLength] => 22
+            [handLooseAboveElbow] => 12
+            [handLooseAboveElbowLeft] => 1
+            [handLooseAboveElbowRight] => 1
+            [handLooseBelowElbow] => 10
+            [handLooseBelowElbowLeft] => 11
+            [handLooseBelowElbowRight] => 1
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 32
+            [lehengaLength] => 1
+            [waistLength] => 1
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-08-13 10:56:37 - Raw Request:
+{"name":"saketh","phone":"9177408586","measurements":{"fullShoulder":"11","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLoose":"17","armholeLooseLeft":"1","armholeLooseRight":"1","handLength":"22","handLooseAboveElbow":"12","handLooseAboveElbowLeft":"1","handLooseAboveElbowRight":"1","handLooseBelowElbow":"10","handLooseBelowElbowLeft":"11","handLooseBelowElbowRight":"1","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"32","lehengaLength":"1","waistLength":"1"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-08-13 10:56:37 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [measurements] => Array
+        (
+            [fullShoulder] => 11
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLoose] => 17
+            [armholeLooseLeft] => 1
+            [armholeLooseRight] => 1
+            [handLength] => 22
+            [handLooseAboveElbow] => 12
+            [handLooseAboveElbowLeft] => 1
+            [handLooseAboveElbowRight] => 1
+            [handLooseBelowElbow] => 10
+            [handLooseBelowElbowLeft] => 11
+            [handLooseBelowElbowRight] => 1
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 32
+            [lehengaLength] => 1
+            [waistLength] => 1
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-08-13 10:57:15 - Raw Request:
+{"name":"saketh","phone":"9177408586","measurements":{"fullShoulder":"11","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLoose":"17","armholeLooseLeft":"2","armholeLooseRight":"2","handLength":"22","handLooseAboveElbow":"12","handLooseAboveElbowLeft":"2","handLooseAboveElbowRight":"2","handLooseBelowElbow":"10","handLooseBelowElbowLeft":"2","handLooseBelowElbowRight":"2","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"322","lehengaLength":"2","waistLength":"2"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-08-13 10:57:15 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [measurements] => Array
+        (
+            [fullShoulder] => 11
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLoose] => 17
+            [armholeLooseLeft] => 2
+            [armholeLooseRight] => 2
+            [handLength] => 22
+            [handLooseAboveElbow] => 12
+            [handLooseAboveElbowLeft] => 2
+            [handLooseAboveElbowRight] => 2
+            [handLooseBelowElbow] => 10
+            [handLooseBelowElbowLeft] => 2
+            [handLooseBelowElbowRight] => 2
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 322
+            [lehengaLength] => 2
+            [waistLength] => 2
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-08-13 13:02:35 - Raw Request:
+{"id":"CUST-1755082955684","name":"sathu","phone":"9177508586","measurements":{"fullShoulder":"1","shoulderWidth":"11","backLength":"1","backNeckLength":"1","armholeLooseLeft":"111","armholeLooseRight":"1","handLength":"11","handLooseAboveElbowLeft":"1","handLooseAboveElbowRight":"","handLooseBelowElbowLeft":"11","handLooseBelowElbowRight":"1","frontLength":"11","frontNeckLength":"1","apexLength":"1","apexToApex":"111","chestLoose":"1","upperChestLoose":"1","waistLoose":"1","lehengaLength":"","waistLength":"1"},"blouseDetails":{"opening":"","doris":"","cut":"","fastener":"","padding":"","piping":""},"images":{"saree":{"url":"","notes":""},"blouseFront":{"url":"","notes":""},"blouseBack":{"url":"","notes":""},"blouseHand":{"url":"","notes":""}},"orderStatus":"Pending"}
+
+2025-08-13 13:02:35 - Parsed Request:
+Array
+(
+    [id] => CUST-1755082955684
+    [name] => sathu
+    [phone] => 9177508586
+    [measurements] => Array
+        (
+            [fullShoulder] => 1
+            [shoulderWidth] => 11
+            [backLength] => 1
+            [backNeckLength] => 1
+            [armholeLooseLeft] => 111
+            [armholeLooseRight] => 1
+            [handLength] => 11
+            [handLooseAboveElbowLeft] => 1
+            [handLooseAboveElbowRight] => 
+            [handLooseBelowElbowLeft] => 11
+            [handLooseBelowElbowRight] => 1
+            [frontLength] => 11
+            [frontNeckLength] => 1
+            [apexLength] => 1
+            [apexToApex] => 111
+            [chestLoose] => 1
+            [upperChestLoose] => 1
+            [waistLoose] => 1
+            [lehengaLength] => 
+            [waistLength] => 1
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => 
+            [doris] => 
+            [cut] => 
+            [fastener] => 
+            [padding] => 
+            [piping] => 
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+)
+
+
+2025-08-13 13:03:20 - Raw Request:
+{"name":"sathu","phone":"9177508586","measurements":{"fullShoulder":"2","shoulderWidth":"2","backLength":"2","backNeckLength":"22","armholeLooseLeft":"22","armholeLooseRight":"22","handLength":"2","handLooseAboveElbowLeft":"2","handLooseAboveElbowRight":"22","handLooseBelowElbowLeft":"2","handLooseBelowElbowRight":"2","frontLength":"2","frontNeckLength":"2","apexLength":"2","apexToApex":"2","chestLoose":"2","upperChestLoose":"2","waistLoose":"2","lehengaLength":"22","waistLength":"2"},"blouseDetails":{"opening":"","doris":"","cut":"","fastener":"","padding":"","piping":""},"images":{"saree":{"url":"","notes":"22"},"blouseFront":{"url":"","notes":""},"blouseBack":{"url":"","notes":""},"blouseHand":{"url":"","notes":""}},"orderStatus":"Pending","id":"CUST-1755082955684"}
+
+2025-08-13 13:03:20 - Parsed Request:
+Array
+(
+    [name] => sathu
+    [phone] => 9177508586
+    [measurements] => Array
+        (
+            [fullShoulder] => 2
+            [shoulderWidth] => 2
+            [backLength] => 2
+            [backNeckLength] => 22
+            [armholeLooseLeft] => 22
+            [armholeLooseRight] => 22
+            [handLength] => 2
+            [handLooseAboveElbowLeft] => 2
+            [handLooseAboveElbowRight] => 22
+            [handLooseBelowElbowLeft] => 2
+            [handLooseBelowElbowRight] => 2
+            [frontLength] => 2
+            [frontNeckLength] => 2
+            [apexLength] => 2
+            [apexToApex] => 2
+            [chestLoose] => 2
+            [upperChestLoose] => 2
+            [waistLoose] => 2
+            [lehengaLength] => 22
+            [waistLength] => 2
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => 
+            [doris] => 
+            [cut] => 
+            [fastener] => 
+            [padding] => 
+            [piping] => 
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => 
+                    [notes] => 22
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1755082955684
+)
+
+
+2025-08-14 14:20:16 - Raw Request:
+{"name":"saketh","phone":"9177408586","address":"plot ni -162","dueDate":"2025-08-15","measurements":{"fullShoulder":"11","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLooseLeft":"2","armholeLooseRight":"2","handLength":"22","handLooseAboveElbowLeft":"2","handLooseAboveElbowRight":"2","handLooseBelowElbowLeft":"2","handLooseBelowElbowRight":"2","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"322","lehengaLength":"2","waistLength":"2"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Alteration","id":"CUST-1753785850174"}
+
+2025-08-14 14:20:16 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [address] => plot ni -162
+    [dueDate] => 2025-08-15
+    [measurements] => Array
+        (
+            [fullShoulder] => 11
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLooseLeft] => 2
+            [armholeLooseRight] => 2
+            [handLength] => 22
+            [handLooseAboveElbowLeft] => 2
+            [handLooseAboveElbowRight] => 2
+            [handLooseBelowElbowLeft] => 2
+            [handLooseBelowElbowRight] => 2
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 322
+            [lehengaLength] => 2
+            [waistLength] => 2
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Alteration
+    [id] => CUST-1753785850174
+)
+
+
+2025-08-14 14:25:41 - Raw Request:
+{"id":"CUST-1755174341514","name":"hh","phone":"809898989","address":"11","dueDate":"0001-01-01","measurements":{"fullShoulder":"","shoulderWidth":"1","backLength":"11","backNeckLength":"1","armholeLooseLeft":"1","armholeLooseRight":"1","handLength":"1","handLooseAboveElbowLeft":"11","handLooseAboveElbowRight":"1","handLooseBelowElbowLeft":"","handLooseBelowElbowRight":"1","frontLength":"11","frontNeckLength":"1","apexLength":"1","apexToApex":"1","chestLoose":"11","upperChestLoose":"1","waistLoose":"11","lehengaLength":"1","waistLength":"1"},"blouseDetails":{"opening":"","doris":"","cut":"","fastener":"","padding":"","piping":""},"images":{"saree":{"url":"","notes":"1"},"blouseFront":{"url":"","notes":""},"blouseBack":{"url":"","notes":""},"blouseHand":{"url":"","notes":""}},"orderStatus":"Pending"}
+
+2025-08-14 14:25:41 - Parsed Request:
+Array
+(
+    [id] => CUST-1755174341514
+    [name] => hh
+    [phone] => 809898989
+    [address] => 11
+    [dueDate] => 0001-01-01
+    [measurements] => Array
+        (
+            [fullShoulder] => 
+            [shoulderWidth] => 1
+            [backLength] => 11
+            [backNeckLength] => 1
+            [armholeLooseLeft] => 1
+            [armholeLooseRight] => 1
+            [handLength] => 1
+            [handLooseAboveElbowLeft] => 11
+            [handLooseAboveElbowRight] => 1
+            [handLooseBelowElbowLeft] => 
+            [handLooseBelowElbowRight] => 1
+            [frontLength] => 11
+            [frontNeckLength] => 1
+            [apexLength] => 1
+            [apexToApex] => 1
+            [chestLoose] => 11
+            [upperChestLoose] => 1
+            [waistLoose] => 11
+            [lehengaLength] => 1
+            [waistLength] => 1
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => 
+            [doris] => 
+            [cut] => 
+            [fastener] => 
+            [padding] => 
+            [piping] => 
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => 
+                    [notes] => 1
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+)
+
+
+2025-08-14 14:26:53 - Raw Request:
+{"name":"saketh","phone":"9177408586","address":"plot no 1652","dueDate":"2025-08-23","measurements":{"fullShoulder":"11","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLooseLeft":"2","armholeLooseRight":"2","handLength":"22","handLooseAboveElbowLeft":"2","handLooseAboveElbowRight":"2","handLooseBelowElbowLeft":"2","handLooseBelowElbowRight":"2","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"322","lehengaLength":"2","waistLength":"2"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-08-14 14:26:53 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [address] => plot no 1652
+    [dueDate] => 2025-08-23
+    [measurements] => Array
+        (
+            [fullShoulder] => 11
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLooseLeft] => 2
+            [armholeLooseRight] => 2
+            [handLength] => 22
+            [handLooseAboveElbowLeft] => 2
+            [handLooseAboveElbowRight] => 2
+            [handLooseBelowElbowLeft] => 2
+            [handLooseBelowElbowRight] => 2
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 322
+            [lehengaLength] => 2
+            [waistLength] => 2
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-08-14 21:32:16 - Raw Request:
+{"name":"saketh","phone":"9177408586","address":"plot no 162 road not 4","dueDate":"2025-08-29","measurements":{"fullShoulder":"1111","shoulderWidth":"14","backLength":"16","backNeckLength":"7","armholeLooseLeft":"2","armholeLooseRight":"2","handLength":"22","handLooseAboveElbowLeft":"2","handLooseAboveElbowRight":"2","handLooseBelowElbowLeft":"2","handLooseBelowElbowRight":"2","frontLength":"15","frontNeckLength":"7","apexLength":"10","apexToApex":"7","chestLoose":"36","upperChestLoose":"34","waistLoose":"322","lehengaLength":"2","waistLength":"2"},"blouseDetails":{"opening":"back","doris":"no","cut":"3dart","fastener":"zip","padding":"no","piping":"contrast"},"images":{"saree":{"url":"http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg","notes":null},"blouseFront":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg","notes":null},"blouseBack":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg","notes":null},"blouseHand":{"url":"http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg","notes":null}},"orderStatus":"Pending","id":"CUST-1753785850174"}
+
+2025-08-14 21:32:16 - Parsed Request:
+Array
+(
+    [name] => saketh
+    [phone] => 9177408586
+    [address] => plot no 162 road not 4
+    [dueDate] => 2025-08-29
+    [measurements] => Array
+        (
+            [fullShoulder] => 1111
+            [shoulderWidth] => 14
+            [backLength] => 16
+            [backNeckLength] => 7
+            [armholeLooseLeft] => 2
+            [armholeLooseRight] => 2
+            [handLength] => 22
+            [handLooseAboveElbowLeft] => 2
+            [handLooseAboveElbowRight] => 2
+            [handLooseBelowElbowLeft] => 2
+            [handLooseBelowElbowRight] => 2
+            [frontLength] => 15
+            [frontNeckLength] => 7
+            [apexLength] => 10
+            [apexToApex] => 7
+            [chestLoose] => 36
+            [upperChestLoose] => 34
+            [waistLoose] => 322
+            [lehengaLength] => 2
+            [waistLength] => 2
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => back
+            [doris] => no
+            [cut] => 3dart
+            [fastener] => zip
+            [padding] => no
+            [piping] => contrast
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/saree_1753882634.jpg
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseFront_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseBack_1753785850.jpg
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => http://localhost/backend/uploads/CUST-1753785850174/blouseHand_1753785850.jpg
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1753785850174
+)
+
+
+2025-08-15 18:43:52 - Raw Request:
+{"id":"CUST-1755276232251","name":"sath","phone":"7075429208","address":"12626","dueDate":"0001-01-01","measurements":{"fullShoulder":"","shoulderWidth":"11","backLength":"1","backNeckLength":"1","armholeLooseLeft":"1","armholeLooseRight":"11","handLength":"1","handLooseAboveElbowLeft":"1","handLooseAboveElbowRight":"","handLooseBelowElbowLeft":"1","handLooseBelowElbowRight":"1","frontLength":"11","frontNeckLength":"1","apexLength":"1","apexToApex":"1","chestLoose":"1","upperChestLoose":"1","waistLoose":"1","lehengaLength":"11","waistLength":"1"},"blouseDetails":{"opening":"","doris":"","cut":"","fastener":"","padding":"","piping":""},"images":{"saree":{"url":"","notes":"11"},"blouseFront":{"url":"","notes":""},"blouseBack":{"url":"","notes":""},"blouseHand":{"url":"","notes":""}},"orderStatus":"Pending"}
+
+2025-08-15 18:43:52 - Parsed Request:
+Array
+(
+    [id] => CUST-1755276232251
+    [name] => sath
+    [phone] => 7075429208
+    [address] => 12626
+    [dueDate] => 0001-01-01
+    [measurements] => Array
+        (
+            [fullShoulder] => 
+            [shoulderWidth] => 11
+            [backLength] => 1
+            [backNeckLength] => 1
+            [armholeLooseLeft] => 1
+            [armholeLooseRight] => 11
+            [handLength] => 1
+            [handLooseAboveElbowLeft] => 1
+            [handLooseAboveElbowRight] => 
+            [handLooseBelowElbowLeft] => 1
+            [handLooseBelowElbowRight] => 1
+            [frontLength] => 11
+            [frontNeckLength] => 1
+            [apexLength] => 1
+            [apexToApex] => 1
+            [chestLoose] => 1
+            [upperChestLoose] => 1
+            [waistLoose] => 1
+            [lehengaLength] => 11
+            [waistLength] => 1
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => 
+            [doris] => 
+            [cut] => 
+            [fastener] => 
+            [padding] => 
+            [piping] => 
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => 
+                    [notes] => 11
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+)
+
+
+2025-08-15 18:44:22 - Raw Request:
+{"name":"sath","phone":"7075429208","address":"dauds","dueDate":"0001-01-01","measurements":{"fullShoulder":"","shoulderWidth":"11","backLength":"1","backNeckLength":"1","armholeLooseLeft":"1","armholeLooseRight":"11","handLength":"1","handLooseAboveElbowLeft":"1","handLooseAboveElbowRight":"","handLooseBelowElbowLeft":"1","handLooseBelowElbowRight":"1","frontLength":"11","frontNeckLength":"1","apexLength":"1","apexToApex":"1","chestLoose":"1","upperChestLoose":"1","waistLoose":"1","lehengaLength":"11","waistLength":"1"},"blouseDetails":{"opening":"","doris":"","cut":"","fastener":"","padding":"","piping":""},"images":{"saree":{"url":"","notes":""},"blouseFront":{"url":"","notes":""},"blouseBack":{"url":"","notes":""},"blouseHand":{"url":"","notes":""}},"orderStatus":"Pending","id":"CUST-1755276232251"}
+
+2025-08-15 18:44:22 - Parsed Request:
+Array
+(
+    [name] => sath
+    [phone] => 7075429208
+    [address] => dauds
+    [dueDate] => 0001-01-01
+    [measurements] => Array
+        (
+            [fullShoulder] => 
+            [shoulderWidth] => 11
+            [backLength] => 1
+            [backNeckLength] => 1
+            [armholeLooseLeft] => 1
+            [armholeLooseRight] => 11
+            [handLength] => 1
+            [handLooseAboveElbowLeft] => 1
+            [handLooseAboveElbowRight] => 
+            [handLooseBelowElbowLeft] => 1
+            [handLooseBelowElbowRight] => 1
+            [frontLength] => 11
+            [frontNeckLength] => 1
+            [apexLength] => 1
+            [apexToApex] => 1
+            [chestLoose] => 1
+            [upperChestLoose] => 1
+            [waistLoose] => 1
+            [lehengaLength] => 11
+            [waistLength] => 1
+        )
+
+    [blouseDetails] => Array
+        (
+            [opening] => 
+            [doris] => 
+            [cut] => 
+            [fastener] => 
+            [padding] => 
+            [piping] => 
+        )
+
+    [images] => Array
+        (
+            [saree] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseFront] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseBack] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+            [blouseHand] => Array
+                (
+                    [url] => 
+                    [notes] => 
+                )
+
+        )
+
+    [orderStatus] => Pending
+    [id] => CUST-1755276232251
+)
+
+

@@ -1,0 +1,82 @@
+<h1>Customers Table Structure</h1><pre>Array
+(
+    [Field] => id
+    [Type] => varchar(50)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => 
+)
+Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+Array
+(
+    [Field] => phone
+    [Type] => varchar(15)
+    [Null] => NO
+    [Key] => UNI
+    [Default] => 
+    [Extra] => 
+)
+Array
+(
+    [Field] => avatar_url
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+Array
+(
+    [Field] => last_updated
+    [Type] => timestamp
+    [Null] => NO
+    [Key] => 
+    [Default] => current_timestamp()
+    [Extra] => on update current_timestamp()
+)
+Array
+(
+    [Field] => created_at
+    [Type] => timestamp
+    [Null] => NO
+    [Key] => 
+    [Default] => current_timestamp()
+    [Extra] => 
+)
+</pre><h1>Sample Customers</h1><pre>Array
+(
+    [id] => CUST-1753785850174
+    [name] => saketh
+    [phone] => 9177408586
+    [avatar_url] => 
+    [last_updated] => 2025-07-29 16:14:10
+    [created_at] => 2025-07-29 16:14:10
+)
+Array
+(
+    [id] => CUST-1753805333582
+    [name] => hai
+    [phone] => 8074381618
+    [avatar_url] => 
+    [last_updated] => 2025-07-29 21:38:53
+    [created_at] => 2025-07-29 21:38:53
+)
+Array
+(
+    [id] => CUST7476
+    [name] => Test Customer Updated
+    [phone] => 1234567890
+    [avatar_url] => 
+    [last_updated] => 2025-07-29 16:10:24
+    [created_at] => 2025-07-29 16:10:03
+)
+</pre>

@@ -1,0 +1,239 @@
+<div style='margin: 10px 0; padding: 10px; background: #f0f0f0; border-left: 4px solid #333;'><strong>DEBUG:</strong> Measurements table structure<pre>Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => customer_id
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => full_shoulder
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => shoulder_width
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => back_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [5] => Array
+        (
+            [Field] => back_neck_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [6] => Array
+        (
+            [Field] => armhole_loose
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [7] => Array
+        (
+            [Field] => hand_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [8] => Array
+        (
+            [Field] => hand_loose_above_elbow
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [9] => Array
+        (
+            [Field] => hand_loose_below_elbow
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [10] => Array
+        (
+            [Field] => front_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [11] => Array
+        (
+            [Field] => front_neck_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [12] => Array
+        (
+            [Field] => apex_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [13] => Array
+        (
+            [Field] => apex_to_apex
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [14] => Array
+        (
+            [Field] => chest_loose
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [15] => Array
+        (
+            [Field] => upper_chest_loose
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [16] => Array
+        (
+            [Field] => waist_loose
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [17] => Array
+        (
+            [Field] => last_updated
+            [Type] => timestamp
+            [Null] => NO
+            [Key] => 
+            [Default] => current_timestamp()
+            [Extra] => on update current_timestamp()
+        )
+
+)
+</pre></div><div style='margin: 10px 0; padding: 10px; background: #f0f0f0; border-left: 4px solid #333;'><strong>DEBUG:</strong> Attempting to create customer<pre>Array
+(
+    [id] => CUST-TEST-1753806017
+    [name] => Test Customer
+    [phone] => 1234567890560
+)
+</pre></div><div style='margin: 10px 0; padding: 10px; background: #f0f0f0; border-left: 4px solid #333;'><strong>DEBUG:</strong> Customer created successfully<pre>Array
+(
+    [id] => CUST-TEST-1753806017
+    [name] => Test Customer
+    [phone] => 1234567890560
+    [avatar_url] => 
+    [last_updated] => 2025-07-29 21:50:17
+    [created_at] => 2025-07-29 21:50:17
+)
+</pre></div><div style='margin: 10px 0; padding: 10px; background: #f0f0f0; border-left: 4px solid #333;'><strong>DEBUG:</strong> Customer created with ID: CUST-TEST-1753806017</div><div style='margin: 10px 0; padding: 10px; background: #f0f0f0; border-left: 4px solid #333;'><strong>DEBUG:</strong> Measurement values to insert<pre>Array
+(
+    [customer_id] => CUST-TEST-1753806017
+    [fullShoulder] => 15
+    [shoulderWidth] => 14
+    [backLength] => 16
+    [backNeckLength] => 7
+    [armholeLoose] => 17
+    [handLength] => 22
+    [handLooseAboveElbow] => 12
+    [handLooseBelowElbow] => 10
+    [frontLength] => 15
+    [frontNeckLength] => 7
+    [apexLength] => 10
+    [apexToApex] => 7
+    [chestLoose] => 36
+    [upperChestLoose] => 34
+    [waistLoose] => 32
+)
+</pre></div><div style='margin: 10px 0; padding: 10px; background: #f0f0f0; border-left: 4px solid #333;'><strong>DEBUG:</strong> Measurements insert result<pre>1</pre></div><h1>Test Customer Created Successfully</h1><p>Customer ID: CUST-TEST-1753806017</p><p>Name: Test Customer</p><p>Phone: 1234567890560</p><h2>Measurements Inserted Successfully</h2><pre>Array
+(
+    [id] => 8
+    [customer_id] => CUST-TEST-1753806017
+    [full_shoulder] => 15
+    [shoulder_width] => 14
+    [back_length] => 16
+    [back_neck_length] => 7
+    [armhole_loose] => 17
+    [hand_length] => 22
+    [hand_loose_above_elbow] => 12
+    [hand_loose_below_elbow] => 10
+    [front_length] => 15
+    [front_neck_length] => 7
+    [apex_length] => 10
+    [apex_to_apex] => 7
+    [chest_loose] => 36
+    [upper_chest_loose] => 34
+    [waist_loose] => 32
+    [last_updated] => 2025-07-29 21:50:17
+)
+</pre>

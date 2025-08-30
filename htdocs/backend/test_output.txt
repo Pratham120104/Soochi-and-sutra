@@ -1,0 +1,210 @@
+<div style='margin: 10px 0; padding: 10px; background: #f0f0f0; border-left: 4px solid #333;'><strong>DEBUG:</strong> Measurements table structure<pre>Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => customer_id
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => full_shoulder
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => shoulder_width
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => back_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [5] => Array
+        (
+            [Field] => back_neck_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [6] => Array
+        (
+            [Field] => armhole_loose
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [7] => Array
+        (
+            [Field] => hand_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [8] => Array
+        (
+            [Field] => hand_loose_above_elbow
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [9] => Array
+        (
+            [Field] => hand_loose_below_elbow
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [10] => Array
+        (
+            [Field] => front_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [11] => Array
+        (
+            [Field] => front_neck_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [12] => Array
+        (
+            [Field] => apex_length
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [13] => Array
+        (
+            [Field] => apex_to_apex
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [14] => Array
+        (
+            [Field] => chest_loose
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [15] => Array
+        (
+            [Field] => upper_chest_loose
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [16] => Array
+        (
+            [Field] => waist_loose
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [17] => Array
+        (
+            [Field] => last_updated
+            [Type] => timestamp
+            [Null] => NO
+            [Key] => 
+            [Default] => current_timestamp()
+            [Extra] => on update current_timestamp()
+        )
+
+)
+</pre></div><div style='margin: 10px 0; padding: 10px; background: #f0f0f0; border-left: 4px solid #333;'><strong>DEBUG:</strong> Customer created with ID: CUST-TEST-1753805940</div><div style='margin: 10px 0; padding: 10px; background: #f0f0f0; border-left: 4px solid #333;'><strong>DEBUG:</strong> Measurement values to insert<pre>Array
+(
+    [customer_id] => CUST-TEST-1753805940
+    [fullShoulder] => 15
+    [shoulderWidth] => 14
+    [backLength] => 16
+    [backNeckLength] => 7
+    [armholeLoose] => 17
+    [handLength] => 22
+    [handLooseAboveElbow] => 12
+    [handLooseBelowElbow] => 10
+    [frontLength] => 15
+    [frontNeckLength] => 7
+    [apexLength] => 10
+    [apexToApex] => 7
+    [chestLoose] => 36
+    [upperChestLoose] => 34
+    [waistLoose] => 32
+)
+</pre></div><h1>Error</h1><p>Execute failed: Cannot add or update a child row: a foreign key constraint fails (`soochiandsutra`.`measurements`, CONSTRAINT `measurements_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`id`) ON DELETE CASCADE)</p><div style='margin: 10px 0; padding: 10px; background: #f0f0f0; border-left: 4px solid #333;'><strong>DEBUG:</strong> Exception details<pre>Array
+(
+    [message] => Execute failed: Cannot add or update a child row: a foreign key constraint fails (`soochiandsutra`.`measurements`, CONSTRAINT `measurements_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`id`) ON DELETE CASCADE)
+    [file] => C:\xampp\htdocs\backend\test_create_customer.php
+    [line] => 129
+    [trace] => #0 {main}
+)
+</pre></div>
